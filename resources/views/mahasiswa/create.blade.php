@@ -37,6 +37,18 @@
                     <label for="Jurusan">Jurusan</label>
                     <input type="text" name="Jurusan" class="form-control" id="Jurusan" aria-describedby="Jurusan" >
                 </div>
+                <div class="form-group">
+                    <label for="Email">E-mail</label>
+                    <input type="text" name="Email" class="form-control" id="Email" aria-describedby="Email" >
+                </div>
+                <div class="form-group">
+                    <label for="Alamat">Alamat</label>
+                    <input type="text" name="Alamat" class="form-control" id="Alamat" aria-describedby="Alamat" >
+                </div>
+                <div class="form-group">
+                    <label for="ttl">TTL</label>
+                    <input type="date" name="ttl" class="form-control" id="ttl" aria-describedby="ttl" >
+                </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
