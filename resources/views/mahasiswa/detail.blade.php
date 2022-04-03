@@ -16,7 +16,7 @@
                     <li class="list-group-item"><b>Jurusan : </b>{{ $Mahasiswa->jurusan }}</li>
                     <li class="list-group-item"><b>Jurusan : </b>{{ $Mahasiswa->email }}</li>
                     <li class="list-group-item"><b>Jurusan : </b>{{ $Mahasiswa->alamat }}</li>
-                    <li class="list-group-item"><b>Jurusan : </b>{{ $Mahasiswa->ttl }}</li>
+                    <li class="list-group-item"><b>Jurusan : </b>{{ Carbon\Carbon::parse($Mahasiswa ->ttl)->format('d-m-Y') }}</li>
             </div>
             <a class="btn btn-success mt-3" href="{{ route('mahasiswa.index') }}">kembali</a>
         </div>
